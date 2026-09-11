@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- types of operators are unary, binary, and all....  -->
+    <script>
+        // addition 
+        var a = 10;
+        var b = 4;
+        var c = a + b;
+        document.write(c + "<br>");
+        c++;
+        c++;
+        c++;
+        c--;
+        c++;
+        c--;
+        c++;
+        document.write(c);
+        document.write("<hr>");
+
+
+        // sub
+        var d = 12;
+        var e = 9;
+        var f = d - e;
+        document.write(f + "<br>");
+        f++;
+        f++;
+        f++;
+        f--;
+        f++;
+        f--;
+        f++;
+        document.write(f);
+        document.write("<hr>");
+
+        // assignment operators 
+        var x = 10;
+        var y = 12;
+        x += y;
+        document.write(x + "<br>");
+        document.write(y + "<br>");
+
+        var x = 10;
+        var y = 12;
+        x *= y;
+        document.write(x + "<br>");
+        document.write(y + "<br>");
+
+        var x = 10;
+        var y = 12;
+        x /= y;
+        document.write(x + "<br>");
+        document.write(y + "<br>");
+
+
+        var a = 34;
+        var b = "34";
+        document.write("<br>");
+        if (a == b) {
+            document.write("true");
+        } else {
+            document.write("false");
+        }
+        document.write("<hr>")
+
+        if (a === b) {
+            document.write("true");
+        } else {
+            document.write("false");
+        }
+
+        document.write("<br>");
+        var age = 22;
+        if (age >= 18 && age <= 100) {
+            document.write("Eligible for vote");
+        } else {
+            document.write("not eligible");
+        }
+        document.write("<br>");
+
+        var day = "Monday";
+        if (day === "Saturday" || day === "Sunday") {
+            document.write("it's weekend");
+        } else {
+            document.write("it's working day");
+        }
+    </script>
+</body>
+
+</html>
