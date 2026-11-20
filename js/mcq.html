@@ -22,11 +22,15 @@
     console.log(10 < 5 < 2);
     console.log(null == undefined);
     console.log(null === undefined);
-    var x = 10; 
-    function show() { 
-        console.log(x); 
-        var x = 20; 
-        } show(); 
+    var x = 10;
+    function show() {
+        console.log(x);
+        var x = 20;
+    } show();
+    function add(a, b) {
+        console.log(arguments.length);
+    }
+    add(10, 20, 30); 
 </script>
 
 </html>
