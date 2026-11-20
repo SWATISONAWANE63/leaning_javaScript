@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>change the background color</h2>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius recusandae repudiandae ex ad
+        nobis quasi
+        at. Sunt in debitis est dolorum? Labore facilis vel consequatur, amet ad aliquam doloremque?</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius recusandae repudiandae ex ad
+        nobis quasi
+        at. Sunt in debitis est dolorum? Labore facilis vel consequatur, amet ad aliquam doloremque?</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius recusandae repudiandae ex ad
+        nobis quasi
+        at. Sunt in debitis est dolorum? Labore facilis vel consequatur, amet ad aliquam doloremque?</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius recusandae repudiandae ex ad
+        nobis quasi
+        at. Sunt in debitis est dolorum? Labore facilis vel consequatur, amet ad aliquam doloremque?</p>
+    <button onclick="change_color()">change the color of para</button>
+</body>
+<script>
+    function change_color() {
+        let para = document.getElementsByClassName("para");
+        for (let i = 0; i < para.length; i++) {
+
+            para[i].style.backgroundColor = "black";
+            para[i].style.color = "white";
+        }
+    }
+</script>
+
+</html>

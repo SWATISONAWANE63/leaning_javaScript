@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Change color of all headings using class selector</h1>
+    <h2 class="headings">html-to create website structure</h2>
+    <h2 class="headings">css-add  style and design purpose </h2>
+    <h2 class="headings">bootstrap- css readymade with responsive design.</h2>
+    <button onclick="changeColor()">change Color</button>
+</body>
+<script>
+    function changeColor(){
+        let headings= document.getElementsByClassName("headings");
+        for(let i=0; i<headings.length; i++){
+            headings[i].style.color="red";
+        }
+    }
+</script>
+</html>
